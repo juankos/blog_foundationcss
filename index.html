@@ -1,0 +1,205 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Blog de gastronomía</title>
+	<link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet">
+	<link rel="stylesheet" href="css/foundation.min.css">
+	<link rel="stylesheet" href="foundation-icons/foundation-icons.css">
+	<link rel="stylesheet" href="css/home.css">
+</head>
+
+<body>
+
+	<!-- Código para el logo -->
+	<div class="row" id="encabezado">
+		<div class="medium-4 columns" id="logo">
+			<h1>SaborPerú</h1>
+			<h6>...paladares exigentes</h6>
+		</div>
+		<div class="medium-8 columns"></div>
+	</div>
+
+	<div class="row" id="cuerpoprincipal">
+		<!-- Código para el buscador -->
+		<div class="medium-4 columns" data-sticky-container id="colizq">
+			<div class="sticky" data-sticky data-anchor="content">
+				<div class="medium-12 columns">
+					<form>
+						<div class="row">
+							<div class="medium-2 columns small-2" id="lupa">
+								<img src="img/search-engine.png" alt="">
+							</div>
+							<div class="medium-10 small-10 columns">
+								<input type="text" id="right-label" placeholder="Busca tu plato favorito">
+							</div>
+						</div>
+					</form>
+				</div>
+
+				<!-- Código para el menú -->
+				<div class="row">
+					<div class="medium-12 columns">
+						<ul class="vertical menu">
+							<li><a href="#">Inicio</a></li>
+							<li><a href="#">Mi plato perfecto</a></li>
+							<li><a href="#">Recetas</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- Código para imágenes de platos -->
+				<!-- Aviso para imágenes -->
+				<div class="row">
+					<div class="medium-12 columns">
+						<div class="callout secondary">
+							<h5>Los mejor de la culinaria peruana</h5>
+							<p id="avisocard">Aquí tienes abundante información sobre los más delciosos platos peruanos.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="medium-12">
+						<div class="row large-uncollapse">
+							<div class="medium-4 columns">
+								<a href="#" class="thumbnail"><img src="img/cebi.jpg" alt="Cebiche" title="Cebiche"></a>
+							</div>
+							<div class="medium-4 columns">
+								<a href="#" class="thumbnail"><img src="img/arroz.jpg" alt="Arroz con mariscos" title="Arroz con mariscos"></a>
+							</div>
+							<div class="medium-4 columns">
+								<a href="#" class="thumbnail"><img src="img/causa.jpg" alt="Causa limeña" title="Causa limeña"></a>
+							</div>
+						</div>
+
+						<div class="row large-uncollapse">
+							<div class="medium-4 columns">
+								<a href="#" class="thumbnail"><img src="img/papa.jpg" alt="Papa a la huancaína" title="Papa a la huancaína"></a>
+							</div>
+							<div class="medium-4 columns">
+								<a href="#" class="thumbnail"><img src="img/tiradito.jpg" alt="Tiradito de pescado" title="Tiradito de pescado"></a>
+							</div>
+							<div class="medium-4 columns">
+								<a href="#" class="thumbnail"><img src="img/pisco.jpg" alt="Pisco sour" title="Pisco sour"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Historial -->
+				<div class="row">
+					<div class="medium-12 columns">
+						<ul class="vertical menu">
+							<li class="active"><a>Historial</a></li>
+							<li><a>Cebiche</a></li>
+							<li><a>Arroz con mariscos</a></li>
+							<li><a>Causa limeña</a></li>
+							<li><a>Papa a la huancaína</a></li>
+							<li><a>Tiradito de pescado</a></li>
+							<li><a>Pisco sour</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Código para los artículos de gastronomía -->
+		<div class="medium-8">
+			<div class="row" id="content">
+				<div class="medium-12 columns">
+					<div class="blog-post">
+						<h3>Para empezar el día, nada mejor que un "pan con chicharrón</h3>
+						<h6>Publicado 18/08/2017</h6>
+						<img class="thumbnail" src="img/alimento1.jpg">
+						<p>El "pan con chicharrón" es un importante ícono de la culinaria peruana, son trozos de carne y piel de cerdo, cocidas en su propia grasa, condimentada tan solo con sal; el chicharrón de utiliza para preparar sánguches, de allí deriva su nombre. El
+							cerdo frito se sirve con papas, camote y maíz autóctono.</p>
+
+						<div class="row medium-12 columns">
+							<form>
+								<fieldset>
+									<legend>Ingrese sus comentarios:</legend>
+									<textarea type="text" rows="4" style="background-color: #eceff1"></textarea>
+									<div id="send_button" align="right">
+										<button class="hollow button warning" href="#">Publicar
+											<span class="show-for-sr">Redactar</span>
+  											<span aria-hidden="true"><i class="fi-pencil"></i></span>
+										</button>
+									</div>
+								</fieldset>
+							</form>
+						</div>
+
+							<div class="callout">
+								<ul class="menu simple">
+									<li><a href="#"><span class="show-for-sr">Redactar</span>
+									<span aria-hidden="true"><i class="fi-book"></i></span>Esther Sanca:</a></li>
+								</ul>
+								<p id="comentarios">Excelente plato para los desayunos, pasen la receta.</p>
+							</div>
+
+							<div class="callout">
+								<ul class="menu simple">
+									<li><a href="#"><span class="show-for-sr">Redactar</span>
+									<span aria-hidden="true"><i class="fi-book"></i></span>Juan Navarro:</a></li>
+								</ul>
+								<p id="comentarios">Este plato es my sencillo de hacer...</p>
+							</div>
+
+							<div class="callout">
+								<ul class="menu simple">
+									<li><a href="#"><span class="show-for-sr">Redactar</span>
+									<span aria-hidden="true"><i class="fi-book"></i></span>Patricia Sotomayor</a></li>
+								</ul>
+								<p id="comentarios">Suban un video que enseñe a elaborar el plato.</p>
+							</div>
+					</div>
+
+					<div class="blog-post">
+						<h3>Sabores ancestrales del Perú, su majestad; la pachamanca</h3>
+						<h6>Publicado 20/08/2017</h6>
+						<img class="thumbnail" src="img/alimento2.jpg">
+						<p>Este es un plato muy peruano, sus orígenes se remontan a épocas pre hispánicas, tiene una forma pecualiar de prepararla en comunidad, haciendo un agujero en el suelo, se construye sobre el, una especie de choza con piedras, a las que se les calienta
+							con abundante fuego; calientes las piedras, se ponen entre ellas una serie de alimentos como papas, camotes, habas y carne previamente sazonada con "huacatay" que es una planta aromática, luego se tapa con ichu, mantas y sobre ella tierra sacada
+							del agujero, pasada una hora, el plato está listo.</p>
+
+						<div class="row medium-12 columns">
+							<form>
+								<fieldset>
+									<legend>Ingrese sus comentarios:</legend>
+									<textarea type="text" rows="4" style="background-color: #eceff1"></textarea>
+									<div id="send_button" align="right">
+										<button class="hollow button warning" href="#">Publicar
+											<span class="show-for-sr">Redactar</span>
+  											<span aria-hidden="true"><i class="fi-pencil"></i></span>
+										</button>
+									</div>
+								</fieldset>
+							</form>
+						</div>
+
+						<div class="callout">
+							<ul class="menu simple">
+								<li><a href="#"><span class="show-for-sr">Redactar</span>
+								<span aria-hidden="true"><i class="fi-book"></i></span>Aldo Palomino</a></li>
+							</ul>
+							<p id="comentarios">Plato muy delicioso, lo probé cuando estuve de paso por el Perú, lo recomiendo...</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+
+	<!-- Fin de código -->
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+	<script>
+		$(document).foundation();
+	</script>
+</body>
+
+</html>
