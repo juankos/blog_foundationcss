@@ -1,0 +1,71 @@
+body{
+	background-image: url(../img/fondo2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	background-attachment: fixed;
+}
+
+div.secondary.callout.text-center{
+  min-height: 242px;
+}
+#cuerpoprincipal{
+	background: rgba(0,0,0,0.6);
+	border-radius: 15px;
+}
+
+h1, h3{
+	font-family: 'Sedgwick Ave', cursive;
+	color: #FFFFFF;
+}
+#encabezado{
+	margin-top: 20px;
+	text-align: right;
+}
+#content{
+	margin-left: 15px;
+
+	border-radius: 20px;
+	padding: 15px;
+}
+
+form{
+	margin-top: 20px;
+}
+#colizq{
+	width: 100%;
+	border-radius: 10px;
+	padding: 5px;
+}
+p{
+	color: #ffffff;
+}
+h6{
+	color: #ffffff;
+}
+#avisocard{
+	color: #000000;
+}
+legend{
+	color: #ffc400;
+}
+button{
+	text-align: right;
+}
+#comentarios{
+	color: #000000;
+}
+
+/*Código para hacer la web responsiva*/
+
+@media screen and (max-width: 480px) {
+
+img{
+	width: auto;
+}
+
+#colizq{
+		display: none;
+}
